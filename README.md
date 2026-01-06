@@ -9,9 +9,9 @@ This project analyzes sales transaction data for a coffee shop chain operating i
 
 ---
 
-## 📊 Dashboard Preview
-![Dashboard Overview](01_Dashboard_Overview.png)
-*(Click the image to view the full resolution)*
+## Dashboard Preview
+[![Dashboard Overview](01_Dashboard_Overview.png)](01_Dashboard_Overview.png)
+*(Click the image above to view full resolution)*
 
 ---
 
@@ -27,7 +27,9 @@ The company wanted to answer key business questions to improve profitability:
 ## Process & Methodology
 To build this dashboard, I performed the following End-to-End Data Analysis process:
 
-### 1. Data Gathering & Cleaning (See: `02_Data_Cleaning_Process.png`)
+### 1. Data Gathering & Cleaning
+**See process documentation:** [02_Data_Cleaning_Process.png](02_Data_Cleaning_Process.png)
+
 * Imported 3 separate datasets: **Orders**, **Customers**, and **Products**.
 * Checked for missing values (NULLs) and data consistency using Filters.
 * Ensured correct data types for Dates and Currency.
@@ -39,7 +41,9 @@ Merged the datasets into a single "Master Sheet" using complex formulas to enabl
 * `IF` Functions: Created logical columns for loyalty program segmentation.
 * `YEAR` & `MONTH`: Extracted date parts for time-series analysis.
 
-### 3. Data Analysis & Modeling (See: `03_Data_Modeling_Analysis.png`)
+### 3. Data Analysis & Modeling
+**See pivot table logic:** [03_Data_Modeling_Analysis.png](03_Data_Modeling_Analysis.png)
+
 Created aggregated Pivot Tables to calculate key metrics:
 * **Total Sales & Profit** (KPIs).
 * **Sales by Country** (Geographic analysis).
@@ -70,11 +74,11 @@ Based on the analysis, here are the major findings:
 
 ---
 
-## File Structure
-* `Coffee_Sales_Dashboard_Analysis.xlsx`: The complete Excel file containing Raw Data, Processing, and Dashboard.
-* `01_Dashboard_Overview.png`: Screenshot of the final dashboard.
-* `02_Data_Cleaning_Process.png`: Screenshot of the data cleaning/formula process.
-* `03_Data_Modeling_Analysis.png`: Screenshot of the Pivot Table/Calculation sheet.
+## File Structure (Click to View)
+* **Excel File:** [Coffee_Sales_Dashboard_Analysis.xlsx](Coffee_Sales_Dashboard_Analysis.xlsx) - *The complete project file containing Raw Data, Processing, and Dashboard.*
+* **Final Dashboard:** [01_Dashboard_Overview.png](01_Dashboard_Overview.png)
+* **Data Process:** [02_Data_Cleaning_Process.png](02_Data_Cleaning_Process.png)
+* **Pivot Logic:** [03_Data_Modeling_Analysis.png](03_Data_Modeling_Analysis.png)
 
 ---
-*Created by [Nama Kamu]*
+*Created by Imam Ramdhani*
